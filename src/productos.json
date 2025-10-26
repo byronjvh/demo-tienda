@@ -1,0 +1,282 @@
+[
+    {
+        "name": "LAPTOP HP 255 G10 15.6″ RYZEN 3 7330U 4GB 256GB SSD WIN 11 HOME INGLÉS B84PBUA#ABA-W11H",
+        "image": "https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2025/10/21686_19460-300x300.jpg",
+        "gallery": [
+            "https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2025/10/21686_19460-500x500.jpg",
+            "https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2025/10/21686_19460-768x768.jpg"
+        ],
+        "price": "₡175.800",
+        "atributes": [
+            {
+                "procesador": "RYZEN 3 7330U"
+            },
+            {
+                "ram": "4GB"
+            },
+            {
+                "almacenamiento": "256GB SSD"
+            },
+            {
+                "pantalla": "15.6″"
+            },
+            {
+                "sistema_operativo": "Windows 11 Home"
+            }
+        ],
+        "sku": "LP2196",
+        "descripcion": "Laptop HP con procesador Ryzen 3, ideal para tareas básicas y uso educativo. Incluye Windows 11 Home en inglés."
+    },
+    {
+        "name": "LAPTOP ASUS VIVOBOOK GO 15.6″ RYZEN 3-7320U 8GB 128GB SSD WIN 11 INGLES ASU-E1504FAAS33",
+        "image": "https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2025/10/21683_19458-300x300.jpg",
+        "gallery": [
+            "https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2025/10/21683_19458-500x500.jpg",
+            "https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2025/10/21683_19458-768x768.jpg"
+        ],
+        "price": "₡184.800",
+        "atributes": [
+            {
+                "procesador": "RYZEN 3-7320U"
+            },
+            {
+                "ram": "8GB"
+            },
+            {
+                "almacenamiento": "128GB SSD"
+            },
+            {
+                "pantalla": "15.6″"
+            },
+            {
+                "sistema_operativo": "Windows 11"
+            }
+        ],
+        "sku": "LP2193",
+        "descripcion": "Asus Vivobook Go con 8GB RAM, perfecta para estudiantes y trabajo móvil. Diseño ligero y eficiente."
+    },
+    {
+        "name": "LAPTOP LENOVO 14″ E41-55 A3050U 4GB RAM 256GB SSD",
+        "image": "https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2024/02/MPNXB2530099-300x300.webp",
+        "gallery": [
+            "https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2024/02/E41-55-1.jpg",
+            "https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2024/02/MPNXB2530099-500x500.webp"
+        ],
+        "price": "₡194.000",
+        "atributes": [
+            {
+                "procesador": "Athlon 3050U"
+            },
+            {
+                "ram": "4GB"
+            },
+            {
+                "almacenamiento": "256GB SSD"
+            },
+            {
+                "pantalla": "14″"
+            },
+            {
+                "marca": "Lenovo"
+            }
+        ],
+        "sku": "LP0023",
+        "descripcion": "Lenovo E41 con procesador Athlon, ideal para oficina y tareas cotidianas. Compacta y confiable."
+    },
+    {
+        "name": "LAPTOP LENOVO IDEAPAD SLIM 3 15IAN8 INTEL CORE I3-N305 ARTIC GREY",
+        "image": "https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2025/01/lp0076-1-300x300.webp",
+        "gallery": [
+            "https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2025/01/lp0076-300x300.webp",
+            "https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2025/01/lp0076-1-500x500.webp"
+        ],
+        "price": "₡195.000",
+        "atributes": [
+            {
+                "procesador": "Intel Core i3-N305"
+            },
+            {
+                "ram": "8GB"
+            },
+            {
+                "almacenamiento": "SSD"
+            },
+            {
+                "pantalla": "15.6″"
+            },
+            {
+                "marca": "Lenovo"
+            }
+        ],
+        "sku": "LP0076",
+        "descripcion": "IdeaPad Slim con procesador Intel Core i3, diseño delgado y rendimiento equilibrado para uso diario."
+    },
+    {
+        "name": "LAPTOP DELL 15 DC15255 15.6″ AMD RYZEN 3-7320U 8GB 512GB SSD WIN 11 HOME INGLÉS DELL-15-3-7320U-512G",
+        "image": "https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2025/09/21601_19387-300x300.jpg",
+        "gallery": [
+            "https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2025/09/21601_19387-500x500.jpg",
+            "https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2025/09/21601_19387-768x768.jpg"
+        ],
+        "price": "₡219.900",
+        "atributes": [
+            {
+                "procesador": "AMD RYZEN 3-7320U"
+            },
+            {
+                "ram": "8GB"
+            },
+            {
+                "almacenamiento": "512GB SSD"
+            },
+            {
+                "pantalla": "15.6″"
+            },
+            {
+                "sistema_operativo": "Windows 11 Home"
+            }
+        ],
+        "sku": "LP2186",
+        "descripcion": "Dell con Ryzen 3 y amplio almacenamiento SSD, perfecta para multitarea y entretenimiento."
+    },
+    {
+        "name": "LAPTOP DELL DC15250 15.6″ I3-100U 8GB 512GB SSD WIN 11 HOME INGLES DELL15-3-100U-512GB",
+        "image": "https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2025/09/21434_19220-300x300.jpg",
+        "gallery": [
+            "https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2025/09/21434_19220-500x500.jpg",
+            "https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2025/09/21434_19220-768x768.jpg"
+        ],
+        "price": "₡220.800",
+        "atributes": [
+            {
+                "procesador": "I3-100U"
+            },
+            {
+                "ram": "8GB"
+            },
+            {
+                "almacenamiento": "512GB SSD"
+            },
+            {
+                "pantalla": "15.6″"
+            },
+            {
+                "sistema_operativo": "Windows 11 Home"
+            }
+        ],
+        "sku": "LP2179",
+        "descripcion": "Dell con procesador i3, ideal para trabajo y estudio. Incluye amplio almacenamiento SSD para mayor velocidad."
+    },
+    {
+        "name": "LAPTOP HP 15.6″ I3-N305 8GB 256GB SSD TOUCH WIN 11 INGLÉS HP-15-FD0130WM",
+        "image": "https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2025/10/21699_19509-300x300.jpg",
+        "gallery": [
+            "https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2025/10/21699_19509-500x500.jpg",
+            "https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2025/10/21699_19509-768x768.jpg"
+        ],
+        "price": "₡221.400",
+        "atributes": [
+            {
+                "procesador": "I3-N305"
+            },
+            {
+                "ram": "8GB"
+            },
+            {
+                "almacenamiento": "256GB SSD"
+            },
+            {
+                "pantalla": "15.6″ Touch"
+            },
+            {
+                "sistema_operativo": "Windows 11"
+            }
+        ],
+        "sku": "LP2201",
+        "descripcion": "HP con pantalla táctil y procesador i3, perfecta para interacción intuitiva y trabajo creativo."
+    },
+    {
+        "name": "LAPTOP ASUS VIVOBOOK GO 15.6″ I3-N305 8GB 256GB SSD WIN 11 HOME INGLES E1504GA-WS35",
+        "image": "https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2025/08/20685_18248-300x300.jpg",
+        "gallery": [
+            "https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2025/08/20685_18248-500x500.jpg",
+            "https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2025/08/20685_18248-768x768.jpg"
+        ],
+        "price": "₡231.100",
+        "atributes": [
+            {
+                "procesador": "I3-N305"
+            },
+            {
+                "ram": "8GB"
+            },
+            {
+                "almacenamiento": "256GB SSD"
+            },
+            {
+                "pantalla": "15.6″"
+            },
+            {
+                "sistema_operativo": "Windows 11 Home"
+            }
+        ],
+        "sku": "LP2137",
+        "descripcion": "Asus Vivobook Go con diseño moderno, ideal para usuarios que buscan portabilidad y rendimiento equilibrado."
+    },
+    {
+        "name": "LAPTOP HP 15-DY5885WM 15.6″ I5-1235U 8GB 256GB SSD WIN 11 HO",
+        "image": "https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2024/09/LAPTOP-HP-15-DY5885WM-15.6-I5-1235U-8GB-256GB-SSD-WIN-11-HO-300x300.webp",
+        "gallery": [
+            "https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2024/09/LAPTOP-HP-15-DY5885WM-15.6-I5-1235U-8GB-256GB-SSD-WIN-11-HO-500x500.webp",
+            "https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2024/09/LAPTOP-HP-15-DY5885WM-15.6-I5-1235U-8GB-256GB-SSD-WIN-11-HO-768x768.webp"
+        ],
+        "price": "₡241.200",
+        "atributes": [
+            {
+                "procesador": "I5-1235U"
+            },
+            {
+                "ram": "8GB"
+            },
+            {
+                "almacenamiento": "256GB SSD"
+            },
+            {
+                "pantalla": "15.6″"
+            },
+            {
+                "sistema_operativo": "Windows 11"
+            }
+        ],
+        "sku": "LP0061",
+        "descripcion": "HP con procesador i5 de 12ª generación, ofrece mayor potencia para tareas exigentes y multitarea."
+    },
+    {
+        "name": "LAPTOP HP 15.6 PULG I5-1235U 8GB 256GB SSD 15-FD0095WM",
+        "image": "https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2025/01/15-FD0095WM-300x300.jpg",
+        "gallery": [
+            "https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2025/01/15-FD0095WM-500x500.jpg",
+            "https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2025/01/15-FD0095WM-768x768.jpg"
+        ],
+        "price": "₡245.000",
+        "atributes": [
+            {
+                "procesador": "I5-1235U"
+            },
+            {
+                "ram": "8GB"
+            },
+            {
+                "almacenamiento": "256GB SSD"
+            },
+            {
+                "pantalla": "15.6″"
+            },
+            {
+                "marca": "HP"
+            }
+        ],
+        "sku": "LP0077",
+        "descripcion": "HP con procesador i5, combina rendimiento y eficiencia energética para trabajo y entretenimiento."
+    }
+]
