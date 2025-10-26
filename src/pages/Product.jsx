@@ -41,7 +41,7 @@ export default function Product() {
                             </div>
                         </div>
                         <div className='w-full py-8 border-t border-gray-300'>
-                            <h3 className='font-bold text-xl mb-2'>Especifícaciones</h3>
+                            <h3 className='font-bold text-xl mb-2'>Especificaciones</h3>
                             <ul className='flex flex-col gap-2'>
                                 {
                                     product.atributes.map((atribute, key) => {
