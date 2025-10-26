@@ -5,6 +5,9 @@ import { Cart, Gear, Offer } from './components/Icons'
 import ProductsList from './productos.json'
 import { useEffect, useState } from 'react'
 import ProductCard from './components/ProductCard'
+import { Store } from 'lucide-react';
+import { Banner } from './components/home/banner'
+import { FloatingChatbot } from './components/chat/FloatingChat'
 
 const CATEGORIES = [
   'Tecnología',
@@ -28,17 +31,7 @@ function App() {
 
   return (
     <>
-      <header className='flex justify-evenly text-nowrap py-2 items-center'>
-        <p className='text-lg flex items-center gap-1'><span className='text-xl font-bold'>+12000</span> productos garantizados</p>
-        <div className='flex gap-2 text-sm'>
-          <p> Call Center (+506) 2234 1032 / WhatsApp (+506) 8900 5090 </p>
-          --
-          <p> L-V 8:00 AM - 5:00 PM / DOM 8:00 AM - 4:00 PM</p>
-        </div>
-        <button className='flex gap-2 cursor-pointer'>
-          Nuestras Tiendas
-        </button>
-      </header>
+      <Banner/>
       <div className='grid grid-cols-3 items-center gap-8 py-6'>
         <img className='w-56 place-self-center' src="https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2020/06/Logo-cr-tech-06.png" alt="logo" />
         <div className='place-self-center border border-gray-400 rounded-xl h-12 flex gap-1.5 w-full max-w-96 items-center p-1.5 '>
@@ -65,6 +58,9 @@ function App() {
           }
         </ul>
         <div className='flex gap-6 '>
+          <PrimaryButton title="Tiendas">
+            <Store />
+          </PrimaryButton>
           <PrimaryButton title="PC Builder">
             <Gear />
           </PrimaryButton>
@@ -105,6 +101,7 @@ function App() {
             <div>Cargando</div>
           )
         }
+        <FloatingChatbot/>
       </main>
     </>
   )
