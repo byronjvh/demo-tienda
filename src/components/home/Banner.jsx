@@ -12,7 +12,7 @@ export const Banner = () => {
           Verificados
         </p>
         <div className="flex gap-2 text-sm">
-          <p> Llámanos: L a V 9:00 AM a 6:00 PM (+506) 22341002</p>
+          <p> Llámanos: L a V 9:00 AM a 6:00 PM (+506) 2234 1002</p>
         </div>
         <div className="flex gap-2 text-sm">
           <a className="flex gap-2 cursor-pointer">Tiendas</a>
