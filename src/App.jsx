@@ -4,6 +4,7 @@ import PrimaryButton from './components/PrimaryButton'
 import { Cart, Gear, Offer } from './components/Icons'
 import ProductsList from './productos.json'
 import { useEffect, useState } from 'react'
+import ProductCard from './components/ProductCard'
 
 const CATEGORIES = [
   'Tecnología',
@@ -91,12 +92,10 @@ function App() {
                 <ul className='grid grid-cols-4 gap-2'>
                   {products?.map(product => (
                     <li key={product.sku}>
-                      <article className='max-w-48 text-sm flex flex-col gap-1 items-center p-2 cursor-pointer'>
-                        <img className='h-40 aspect-square object-contain' src={product.image} alt={product.name} />
-                        <span className='bg-orange-500 text-white py-1 px-3 font-bold self-start rounded-tl-lg rounded-br-lg'>Envío Rápido</span>
-                        <h4 className='h-10 line-clamp-2'>{product.name}</h4>
-                        <p className='w-full font-bold text-base text-orange-500'>{product.price}</p>
-                      </article>
+                      <ProductCard
+                        name={product.name}
+                        price={product.price}
+                        image={product.image} />
                     </li>
                   ))}
                 </ul>
