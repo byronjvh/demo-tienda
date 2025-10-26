@@ -1,13 +1,13 @@
 import './App.css'
 import CategoryButton from './components/CategoryButton'
 import PrimaryButton from './components/PrimaryButton'
-import { Cart, Gear, Offer } from './components/Icons'
+import { Gear, Offer } from './components/Icons'
 import ProductsList from './productos.json'
 import { useEffect, useState } from 'react'
 import ProductCard from './components/ProductCard'
 import { Store } from 'lucide-react';
-import { Banner } from './components/home/banner'
 import { FloatingChatbot } from './components/chat/FloatingChat'
+import { Link } from 'react-router'
 
 const CATEGORIES = [
   'Tecnología',
@@ -24,27 +24,16 @@ function App() {
 
   // simula llamada a la api
   useEffect(() => {
+    if (products) return
     setTimeout(() => {
       setProducts(ProductsList)
     }, 500);
   }, [])
 
+
+
   return (
     <>
-      <Banner/>
-      <div className='grid grid-cols-3 items-center gap-8 py-6'>
-        <img className='w-56 place-self-center' src="https://cdn-ilaabjh.nitrocdn.com/OzMRamyAKVKkRfGWMkLhcUdtvVYEmpJD/assets/images/optimized/rev-ecca6a1/crtechstore.com/wp-content/uploads/2020/06/Logo-cr-tech-06.png" alt="logo" />
-        <div className='place-self-center border border-gray-400 rounded-xl h-12 flex gap-1.5 w-full max-w-96 items-center p-1.5 '>
-          <input className='w-full h-full p-1' type="text" placeholder='Encuentra lo que buscas' />
-          <button className='h-full aspect-square rounded-lg bg-orange-500 text-white font-bold cursor-pointer'>S</button>
-        </div>
-        <div className='place-self-center flex gap-2'>
-          <button className='cursor-pointer'>Ingresar</button>
-          |
-          <button className='cursor-pointer'>Registrarse</button>
-          <button className='text-orange-500 rounded-md cursor-pointer'><Cart size='28px' /></button>
-        </div>
-      </div>
       <div className='flex justify-evenly items-center py-4 '>
         <ul className='flex gap-6 text-lg'>
           {
@@ -59,7 +48,7 @@ function App() {
         </ul>
         <div className='flex gap-6 '>
           <PrimaryButton title="Tiendas">
-            <Store />
+            <Store width="22" />
           </PrimaryButton>
           <PrimaryButton title="PC Builder">
             <Gear />
@@ -69,14 +58,14 @@ function App() {
           </PrimaryButton>
         </div>
       </div>
-      <main className='flex gap-8 justify-center'>
+      <main className='flex gap-8 justify-center mt-4'>
         {
           products ? (
             <>
               <aside className='w-56'>
-                <div>filtros</div>
+                <div className='bg-gray-300 font-bold px-2 text-center'>FILTRAR POR</div>
               </aside>
-              <div className=''>
+              <div className='p-8 border-t border-gray-300'>
                 <div className='flex text-sm justify-between px-2'>
                   <p>Mostrando 1-{products.length} de {products.length} resultados</p>
                   <select id="order-select">
@@ -88,20 +77,22 @@ function App() {
                 <ul className='grid grid-cols-4 gap-2'>
                   {products?.map(product => (
                     <li key={product.sku}>
-                      <ProductCard
-                        name={product.name}
-                        price={product.price}
-                        image={product.image} />
+                      <Link to={`/${product.sku}`}>
+                        <ProductCard
+                          name={product.name}
+                          price={product.price}
+                          image={product.image} />
+                      </Link>
                     </li>
                   ))}
                 </ul>
               </div>
             </>
           ) : (
-            <div>Cargando</div>
+            <div>Cargando...</div>
           )
         }
-        <FloatingChatbot/>
+        <FloatingChatbot />
       </main>
     </>
   )

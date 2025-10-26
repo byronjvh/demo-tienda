@@ -25,7 +25,7 @@
             }
         ],
         "sku": "LP2196",
-        "descripcion": "Laptop HP con procesador Ryzen 3, ideal para tareas básicas y uso educativo. Incluye Windows 11 Home en inglés."
+        "description": "Laptop HP con procesador Ryzen 3, ideal para tareas básicas y uso educativo. Incluye Windows 11 Home en inglés."
     },
     {
         "name": "LAPTOP ASUS VIVOBOOK GO 15.6″ RYZEN 3-7320U 8GB 128GB SSD WIN 11 INGLES ASU-E1504FAAS33",
@@ -53,7 +53,7 @@
             }
         ],
         "sku": "LP2193",
-        "descripcion": "Asus Vivobook Go con 8GB RAM, perfecta para estudiantes y trabajo móvil. Diseño ligero y eficiente."
+        "description": "Asus Vivobook Go con 8GB RAM, perfecta para estudiantes y trabajo móvil. Diseño ligero y eficiente."
     },
     {
         "name": "LAPTOP LENOVO 14″ E41-55 A3050U 4GB RAM 256GB SSD",
@@ -81,7 +81,7 @@
             }
         ],
         "sku": "LP0023",
-        "descripcion": "Lenovo E41 con procesador Athlon, ideal para oficina y tareas cotidianas. Compacta y confiable."
+        "description": "Lenovo E41 con procesador Athlon, ideal para oficina y tareas cotidianas. Compacta y confiable."
     },
     {
         "name": "LAPTOP LENOVO IDEAPAD SLIM 3 15IAN8 INTEL CORE I3-N305 ARTIC GREY",
@@ -109,7 +109,7 @@
             }
         ],
         "sku": "LP0076",
-        "descripcion": "IdeaPad Slim con procesador Intel Core i3, diseño delgado y rendimiento equilibrado para uso diario."
+        "description": "IdeaPad Slim con procesador Intel Core i3, diseño delgado y rendimiento equilibrado para uso diario."
     },
     {
         "name": "LAPTOP DELL 15 DC15255 15.6″ AMD RYZEN 3-7320U 8GB 512GB SSD WIN 11 HOME INGLÉS DELL-15-3-7320U-512G",
@@ -137,7 +137,7 @@
             }
         ],
         "sku": "LP2186",
-        "descripcion": "Dell con Ryzen 3 y amplio almacenamiento SSD, perfecta para multitarea y entretenimiento."
+        "description": "Dell con Ryzen 3 y amplio almacenamiento SSD, perfecta para multitarea y entretenimiento."
     },
     {
         "name": "LAPTOP DELL DC15250 15.6″ I3-100U 8GB 512GB SSD WIN 11 HOME INGLES DELL15-3-100U-512GB",
@@ -165,7 +165,7 @@
             }
         ],
         "sku": "LP2179",
-        "descripcion": "Dell con procesador i3, ideal para trabajo y estudio. Incluye amplio almacenamiento SSD para mayor velocidad."
+        "description": "Dell con procesador i3, ideal para trabajo y estudio. Incluye amplio almacenamiento SSD para mayor velocidad."
     },
     {
         "name": "LAPTOP HP 15.6″ I3-N305 8GB 256GB SSD TOUCH WIN 11 INGLÉS HP-15-FD0130WM",
@@ -193,7 +193,7 @@
             }
         ],
         "sku": "LP2201",
-        "descripcion": "HP con pantalla táctil y procesador i3, perfecta para interacción intuitiva y trabajo creativo."
+        "description": "HP con pantalla táctil y procesador i3, perfecta para interacción intuitiva y trabajo creativo."
     },
     {
         "name": "LAPTOP ASUS VIVOBOOK GO 15.6″ I3-N305 8GB 256GB SSD WIN 11 HOME INGLES E1504GA-WS35",
@@ -221,7 +221,7 @@
             }
         ],
         "sku": "LP2137",
-        "descripcion": "Asus Vivobook Go con diseño moderno, ideal para usuarios que buscan portabilidad y rendimiento equilibrado."
+        "description": "Asus Vivobook Go con diseño moderno, ideal para usuarios que buscan portabilidad y rendimiento equilibrado."
     },
     {
         "name": "LAPTOP HP 15-DY5885WM 15.6″ I5-1235U 8GB 256GB SSD WIN 11 HO",
@@ -249,7 +249,7 @@
             }
         ],
         "sku": "LP0061",
-        "descripcion": "HP con procesador i5 de 12ª generación, ofrece mayor potencia para tareas exigentes y multitarea."
+        "description": "HP con procesador i5 de 12ª generación, ofrece mayor potencia para tareas exigentes y multitarea."
     },
     {
         "name": "LAPTOP HP 15.6 PULG I5-1235U 8GB 256GB SSD 15-FD0095WM",
@@ -277,6 +277,6 @@
             }
         ],
         "sku": "LP0077",
-        "descripcion": "HP con procesador i5, combina rendimiento y eficiencia energética para trabajo y entretenimiento."
+        "description": "HP con procesador i5, combina rendimiento y eficiencia energética para trabajo y entretenimiento."
     }
 ]
