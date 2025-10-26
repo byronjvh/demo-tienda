@@ -29,6 +29,8 @@ function App() {
     }, 500);
   }, [])
 
+
+
   return (
     <>
       <Banner />
@@ -59,7 +61,7 @@ function App() {
         </ul>
         <div className='flex gap-6 '>
           <PrimaryButton title="Tiendas">
-            <Store />
+            <Store width="22" />
           </PrimaryButton>
           <PrimaryButton title="PC Builder">
             <Gear />
@@ -69,14 +71,14 @@ function App() {
           </PrimaryButton>
         </div>
       </div>
-      <main className='flex gap-8 justify-center'>
+      <main className='flex gap-8 justify-center mt-4'>
         {
           products ? (
             <>
               <aside className='w-56'>
-                <div>filtros</div>
+                <div className='bg-gray-300 font-bold px-2 text-center'>FILTRAR POR</div>
               </aside>
-              <div className=''>
+              <div className='p-8 border-t border-gray-300'>
                 <div className='flex text-sm justify-between px-2'>
                   <p>Mostrando 1-{products.length} de {products.length} resultados</p>
                   <select id="order-select">
