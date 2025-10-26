@@ -7,6 +7,7 @@ import { useEffect, useState } from 'react'
 import ProductCard from './components/ProductCard'
 import { Store } from 'lucide-react';
 import { Banner } from './components/home/banner'
+import { FloatingChatbot } from './components/chat/FloatingChat'
 
 const CATEGORIES = [
   'Tecnología',
@@ -100,6 +101,7 @@ function App() {
             <div>Cargando</div>
           )
         }
+        <FloatingChatbot/>
       </main>
     </>
   )
