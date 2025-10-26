@@ -8,6 +8,7 @@ import ProductCard from './components/ProductCard'
 import { Search, Store } from 'lucide-react';
 import { Banner } from './components/home/banner'
 import { FloatingChatbot } from './components/chat/FloatingChat'
+import { Link } from 'react-router'
 
 const CATEGORIES = [
   'Tecnología',
@@ -24,6 +25,7 @@ function App() {
 
   // simula llamada a la api
   useEffect(() => {
+    if (products) return
     setTimeout(() => {
       setProducts(ProductsList)
     }, 500);
@@ -90,10 +92,12 @@ function App() {
                 <ul className='grid grid-cols-4 gap-2'>
                   {products?.map(product => (
                     <li key={product.sku}>
-                      <ProductCard
-                        name={product.name}
-                        price={product.price}
-                        image={product.image} />
+                      <Link to={`/${product.sku}`}>
+                        <ProductCard
+                          name={product.name}
+                          price={product.price}
+                          image={product.image} />
+                      </Link>
                     </li>
                   ))}
                 </ul>
