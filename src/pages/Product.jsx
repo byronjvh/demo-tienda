@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import ProductsList from '../productos.json'
+import { MainOptions } from '../components/MainOptions';
 
 export default function Product() {
     const [product, setProduct] = useState(null)
@@ -15,6 +16,8 @@ export default function Product() {
 
     console.log(product)
     return (
+        <>
+        <MainOptions/>
         <div className='w-full mx-auto max-w-7xl flex flex-col items-center mt-4 py-4 gap-8'>
             {
                 product ? (
@@ -64,5 +67,6 @@ export default function Product() {
                 )
             }
         </div>
+        </>
     )
 }
