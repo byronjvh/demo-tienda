@@ -1,5 +1,5 @@
 import { Search } from 'lucide-react';
-import { Banner } from './home/banner';
+import { Banner } from './home/Banner';
 import { Cart } from './Icons';
 import { Link } from 'react-router';
 
