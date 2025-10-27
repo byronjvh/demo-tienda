@@ -26,8 +26,8 @@ export default function Product() {
                                     <img className='place-self-center' src={product.image} alt={product.name} />
                                     <div className='flex gap-3 justify-center'>
                                         {
-                                            product.gallery.map(img => (
-                                                <img className='h-32' src={img} alt={product.name} />
+                                            product.gallery.map((img, key) => (
+                                                <img key={key} className='h-32' src={img} alt={product.name} />
                                             ))
                                         }
                                     </div>
