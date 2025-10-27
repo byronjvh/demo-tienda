@@ -2,7 +2,6 @@ import './App.css'
 import ProductsList from './productos.json'
 import { useEffect, useMemo, useState } from 'react'
 import ProductCard from './components/ProductCard'
-import { FloatingChatbot } from './components/chat/FloatingChat'
 import { Link } from 'react-router'
 import { MainOptions } from './components/MainOptions'
 
@@ -73,7 +72,6 @@ function App() {
           )
         }
       </main>
-        <FloatingChatbot />
     </>
   )
 }
