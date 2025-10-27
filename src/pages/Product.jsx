@@ -27,7 +27,7 @@ export default function Product() {
                                     <div className='flex gap-3 justify-center'>
                                         {
                                             product.gallery.map((img, key) => (
-                                                <img key={key} className='h-32' src={img} alt={product.name} />
+                                                <img key={key} className='h-32 shadow-lg rounded-xl' src={img} alt={product.name} />
                                             ))
                                         }
                                     </div>

@@ -4,7 +4,7 @@ import { NavLink } from 'react-router';
 export const Banner = () => {
   return (
     <>
-      <header className="flex justify-evenly text-nowrap py-6 items-center bg-crtech-grey text-white">
+      <header className="hidden lg:flex justify-evenly text-nowrap py-6 items-center bg-crtech-grey text-white">
         <p className="text-lg flex items-center gap-1">
           <span className="text-xl">
             <BadgeCheck color="#ff5800" />
