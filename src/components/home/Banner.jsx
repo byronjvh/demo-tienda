@@ -1,4 +1,5 @@
 import { BadgeCheck } from 'lucide-react';
+import { Navigate, NavLink } from 'react-router';
 
 export const Banner = () => {
   return (
@@ -15,7 +16,7 @@ export const Banner = () => {
           <p> Llámanos: L a V 9:00 AM a 6:00 PM (+506) 2234 1002</p>
         </div>
         <div className="flex gap-2 text-sm">
-          <a className="flex gap-2 cursor-pointer">Tiendas</a>
+          <NavLink className="flex gap-2 cursor-pointer hover:text-orange-600" to={'/tiendas'}>Tiendas</NavLink>
           <span className="flex gap-2 cursor-pointer">|</span>
           <a className="flex gap-2 cursor-pointer hover:text-orange-600" href='https://www.crtechgaming.com'>
             www.crtechgaming.com
