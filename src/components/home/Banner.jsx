@@ -1,5 +1,5 @@
 import { BadgeCheck } from 'lucide-react';
-import { Navigate, NavLink } from 'react-router';
+import { NavLink } from 'react-router';
 
 export const Banner = () => {
   return (
