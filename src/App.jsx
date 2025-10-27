@@ -42,19 +42,19 @@ function App() {
         {
           sortedProducts.length ? (
             <>
-              <aside className='w-56'>
+              <aside className='w-56 hidden md:block'>
                 <div className='bg-gray-300 font-bold px-2 text-center'>FILTRAR POR</div>
               </aside>
               <div className='p-8 border-t border-gray-300'>
                 <div className='flex text-sm justify-between px-2'>
-                  <p>Mostrando 1-{sortedProducts.length} de {sortedProducts.length} resultados</p>
-                  <select onChange={handleSort} id="order-select">
+                  <p className='hidden md:block'>Mostrando 1-{sortedProducts.length} de {sortedProducts.length} resultados</p>
+                  <select className='' onChange={handleSort} id="order-select">
                     <option value="">Ordenar por... </option>
                     <option value="highest">Precio mayor a menor</option>
                     <option value="lowest">Precio menor a mayor</option>
                   </select>
                 </div>
-                <ul className='grid grid-cols-4 gap-2'>
+                <ul className='grid grid-cols-1 gap-2 lg:grid-cols-4 sm:grid-cols-2'>
                   {sortedProducts?.map(product => (
                     <li key={product.sku}>
                       <Link to={`/${product.sku}`}>
