@@ -7,7 +7,7 @@ import { useEffect, useState } from 'react'
 import ProductCard from './components/ProductCard'
 import { Store } from 'lucide-react';
 import { FloatingChatbot } from './components/chat/FloatingChat'
-import { Link } from 'react-router'
+import { Link, useNavigate } from 'react-router'
 
 const CATEGORIES = [
   'Tecnología',
@@ -21,6 +21,7 @@ const CATEGORIES = [
 
 function App() {
   const [products, setProducts] = useState(null)
+  const navigation = useNavigate()
 
   // simula llamada a la api
   useEffect(() => {
@@ -30,6 +31,9 @@ function App() {
     }, 500);
   }, [])
 
+  const handleClickStores = () => {
+    navigation('/tiendas')
+  }
 
 
   return (
@@ -47,7 +51,7 @@ function App() {
           }
         </ul>
         <div className='flex gap-6 '>
-          <PrimaryButton title="Tiendas">
+          <PrimaryButton title="Tiendas" onClick={handleClickStores}>
             <Store width="22" />
           </PrimaryButton>
           <PrimaryButton title="PC Builder">
