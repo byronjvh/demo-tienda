@@ -1,23 +1,10 @@
 import './App.css'
-import CategoryButton from './components/CategoryButton'
-import PrimaryButton from './components/PrimaryButton'
-import { Gear, Offer } from './components/Icons'
 import ProductsList from './productos.json'
 import { useEffect, useState } from 'react'
 import ProductCard from './components/ProductCard'
-import { Store } from 'lucide-react';
 import { FloatingChatbot } from './components/chat/FloatingChat'
 import { Link } from 'react-router'
-
-const CATEGORIES = [
-  'Tecnología',
-  'Gaming',
-  'Components',
-  'Periféricos',
-  'Smart Home',
-  'Redes y Seguridad',
-  'Tecno Educación'
-]
+import { MainOptions } from './components/MainOptions'
 
 function App() {
   const [products, setProducts] = useState(null)
@@ -34,31 +21,8 @@ function App() {
 
   return (
     <>
-      <div className='flex justify-evenly items-center py-4 '>
-        <ul className='flex gap-6 text-lg'>
-          {
-            CATEGORIES.map((category, key) => (
-              <li key={key}>
-                <CategoryButton >
-                  {category}
-                </CategoryButton>
-              </li>
-            ))
-          }
-        </ul>
-        <div className='flex gap-6 '>
-          <PrimaryButton title="Tiendas">
-            <Store width="22" />
-          </PrimaryButton>
-          <PrimaryButton title="PC Builder">
-            <Gear />
-          </PrimaryButton>
-          <PrimaryButton title="Ofertas">
-            <Offer size='22px' />
-          </PrimaryButton>
-        </div>
-      </div>
-      <main className='flex gap-8 justify-center mt-4'>
+      <MainOptions/>
+      <main className='flex gap-8 justify-center mt-4 animate-fadeInUp opacity-0'>
         {
           products ? (
             <>
