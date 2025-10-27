@@ -22,7 +22,7 @@ function App() {
   return (
     <>
       <MainOptions/>
-      <main className='flex gap-8 justify-center mt-4'>
+      <main className='flex gap-8 justify-center mt-4 animate-fadeInUp opacity-0'>
         {
           products ? (
             <>

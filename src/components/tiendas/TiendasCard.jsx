@@ -9,7 +9,7 @@ export const TiendasCard = ({
   horario,
   linkWaze,
   linkMaps,
-  isExpanded, 
+  isExpanded,
   onToggle,
 }) => {
 
@@ -20,7 +20,10 @@ export const TiendasCard = ({
   };
 
   return (
-    <article className="max-w-xl mx-auto bg-white rounded-3xl shadow-xl my-6 p-4">
+    <article 
+      className="max-w-xl mx-auto bg-white rounded-3xl shadow-xl my-6 p-4 cursor-pointer 
+                 transition duration-300 ease-in-out hover:shadow-2xl hover:scale-[1.01]"
+    >
       <div className="flex gap-4">
         {/* Contenedor de la Imagen */}
         <div className="shrink-0 w-40 h-40">
@@ -55,47 +58,52 @@ export const TiendasCard = ({
         </div>
       </div>
       
-      
-      {isExpanded && (
-
-      <div className="mt-4 pt-4 border-t border-gray-100 space-y-3">
-        
-        {/* Teléfono */}
-        <div className="flex items-center text-gray-800">
-          <PhoneCall className='mr-3 text-orange-500' />
-          <span className="text-base font-semibold">{telefono}</span>
-        </div>
-        
-        {/* Horario */}
-        <div className="flex items-center text-gray-800">
-          <Clock className='mr-3 text-orange-500' /> 
-          <span className="text-base font-semibold">{horario}</span>
-        </div>
-        
-        {/* Enlaces de Ubicación */}
-        <div className="flex items-center pt-2">
-          <div className="flex gap-2 mr-3">
-             <a href={linkWaze} target="_blank" rel="noopener noreferrer" className="opacity-90 hover:opacity-100 transition">
-                <MapPin className='inline-block bg-gray-200 rounded-lg text-center leading-8'/>
-             </a>
-             <a href={linkMaps} target="_blank" rel="noopener noreferrer" className="opacity-90 hover:opacity-100 transition">
-                <MapPinned className='inline-block bg-gray-200 rounded-lg text-center leading-8' />
-             </a>
+      <div 
+        className={`
+          transition-all duration-500 ease-in-out overflow-hidden
+          ${isExpanded ? 'max-h-96 pt-4 border-t border-gray-100 mt-4' : 'max-h-0 pt-0 mt-0'}
+        `}
+      >
+        <div className="space-y-3">
+          {/* Teléfono */}
+          <div className="flex items-center text-gray-800">
+            <PhoneCall className='mr-3 text-orange-500 transition duration-300 hover:scale-110' />
+            <span className="text-base font-semibold">{telefono}</span>
           </div>
-          <span className="text-base text-gray-600 border-b border-gray-600 hover:text-gray-900 cursor-pointer">
-            Haz click para acceder a la ubicación
-          </span>
-        </div>
+          
+          {/* Horario */}
+          <div className="flex items-center text-gray-800">
+            <Clock className='mr-3 text-orange-500 transition duration-300 hover:scale-110' /> 
+            <span className="text-base font-semibold">{horario}</span>
+          </div>
+          
+          {/* Enlaces de Ubicación */}
+          <div className="flex items-center pt-2">
+            <div className="flex gap-2 mr-3">
+               <a href={linkWaze} target="_blank" rel="noopener noreferrer" className="opacity-90 transition duration-300 hover:scale-110 hover:opacity-100">
+                 <MapPin className='inline-block bg-gray-200 rounded-lg text-center p-2 w-8 h-8' />
+               </a>
+               <a href={linkMaps} target="_blank" rel="noopener noreferrer" className="opacity-90 transition duration-300 hover:scale-110 hover:opacity-100">
+                 <MapPinned className='inline-block bg-gray-200 rounded-lg text-center p-2 w-8 h-8' />
+               </a>
+            </div>
+            <span className="text-base text-gray-600 border-b border-gray-600 hover:text-gray-900 cursor-pointer">
+              Haz click para acceder a la ubicación
+            </span>
+          </div>
 
-        {/* Botón de Menos Información */}
-        <div className="mt-3">
-          <a href="#" onClick={handleToggleClick}className="text-base text-gray-600 border-b border-gray-600 hover:text-gray-900 cursor-pointer">
-            Menos información
-          </a>
+          {/* Botón de Menos Información */}
+          <div className="mt-3">
+            <a 
+              href="#" 
+              onClick={handleToggleClick} 
+              className="text-base text-gray-600 border-b border-gray-600 hover:text-gray-900 cursor-pointer font-semibold"
+            >
+              Menos información
+            </a>
+          </div>
         </div>
       </div>
-      )}
-
     </article>
   );
 };
