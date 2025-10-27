@@ -5,23 +5,26 @@
         "ubicacion": "San José San Pedro, La Granja, Frente al Restaurante Il Padrino, Calle 67A entre Ruta 2 y Av8.",
         "linkWaze": "",
         "linkMaps": "",
-        "telefono":"2234-1032","horario": "L-S 9 am a 6 pm. D 9am a 5 pm"
+        "telefono": "2234-1032",
+        "horario": "L-S 9 am a 6 pm. D 9am a 5 pm"
     },
     {
-        "imagenTienda": "https://lh3.googleusercontent.com/p/AF1QipOgmIOExKHGjiu9t3XpcBe2xMSsA0CTmFNMbme-=s1360-w1360-h1020-rw",
+        "imagenTienda": "https://lh3.googleusercontent.com/p/AF1QipOgmIOExKHGjiu9t3XpcBe2xMSsA0CTmFNMbme-=s680-w680-h510-rw",
         "tienda": "Heredia - Paseo de las Flores",
         "ubicacion": "Heredia Mall Paseo de Las Flores Contiguo a Cinépolis.",
         "linkWaze": "",
         "linkMaps": "",
-        "telefono":"2234-1032","horario": "L-D 10 am a 8 pm"
+        "telefono": "2234-1032",
+        "horario": "L-D 10 am a 8 pm"
     },
     {
-        "imagenTienda": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxqREjxDHwcBbjaQZZL4xe8Tt3RB71hztGh1Nn0w8DngWhyQd60XzLrH7Ao2qZd98dejPd_4yGqQhMZMxKQzGz89KPZbjF9mklkfI9dxWcTjGQgfcRKPEN7msuotx08iyVEUPT4=s1360-w1360-h1020-rw",
+        "imagenTienda": "https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxqREjxDHwcBbjaQZZL4xe8Tt3RB71hztGh1Nn0w8DngWhyQd60XzLrH7Ao2qZd98dejPd_4yGqQhMZMxKQzGz89KPZbjF9mklkfI9dxWcTjGQgfcRKPEN7msuotx08iyVEUPT4=s680-w680-h510-rw",
         "tienda": "Alajuela - City Mall",
         "ubicacion": "Alajuela, City Mall, 2do Piso, entrada City Tower Center, al costado de la Universal.",
         "linkWaze": "",
         "linkMaps": "",
-        "telefono":"2234-1032","horario": "L-D 10 am a 8 pm"
+        "telefono": "2234-1032",
+        "horario": "L-D 10 am a 8 pm"
     },
     {
         "imagenTienda": "https://paseometropoli.com/web/wp-content/uploads/2025/02/CR-TECH.webp",
@@ -29,6 +32,7 @@
         "ubicacion": "Cartago Paseo Metrópoli, 1er Piso, Contiguo a Dr. Max",
         "linkWaze": "",
         "linkMaps": "",
-        "telefono":"2234-1032","horario": "L-S 10:30 am a 9 pm"
+        "telefono": "2234-1032",
+        "horario": "L-S 10:30 am a 9 pm"
     }
 ]
