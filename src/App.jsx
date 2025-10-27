@@ -72,8 +72,8 @@ function App() {
             <div>Cargando...</div>
           )
         }
-        <FloatingChatbot />
       </main>
+        <FloatingChatbot />
     </>
   )
 }
