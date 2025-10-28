@@ -3,7 +3,7 @@ const useChatLogic = () => {
     // const GEMINI_API_KEY = import.meta.env.VITE_GEMINI_API_KEY; 
 
     // Prod:
-    const GEMINI_API_KEY = process.env.GEMINI_API_KEY; 
+    const GEMINI_API_KEY = process.env.VITE_GEMINI_API_KEY; 
     const API_MODEL = 'gemini-2.5-flash-preview-09-2025'; 
 
     async function callGeminiWithRetry(prompt, systemInstruction, maxRetries = 3) {

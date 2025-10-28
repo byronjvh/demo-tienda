@@ -62,7 +62,7 @@ export const FloatingChatbot = () => {
         // const waUrl = `https://wa.me/${import.meta.env.VITE_WHATSAPP_NUM}?text=Hola%2C%20necesito%20ayuda%20con%20la%20demo.`;
         
         // Prod: 
-        const waUrl = `https://wa.me/${process.env.WHATSAPP_NUM}?text=Hola%2C%20necesito%20ayuda%20con%20la%20demo.`;
+        const waUrl = `https://wa.me/${process.env.VITE_WHATSAPP_NUM}?text=Hola%2C%20necesito%20ayuda%20con%20la%20demo.`;
         window.open(waUrl, '_blank', 'noopener,noreferrer');
         setIsOpen(false);
     };
